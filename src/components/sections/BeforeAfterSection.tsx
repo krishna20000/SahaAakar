@@ -14,7 +14,7 @@ export function BeforeAfterSection() {
           </p>
         </AnimatedWrapper>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
-          <AnimatedWrapper animationType="slide-in-left">
+          <AnimatedWrapper animationType="slide-in-left" className="h-full">
             <Card className="shadow-xl hover:shadow-2xl transition-shadow duration-300 h-full">
               <CardHeader>
                 <CardTitle className="font-headline text-2xl text-center text-destructive">Before SahaAakar</CardTitle>
@@ -39,7 +39,7 @@ export function BeforeAfterSection() {
              <ArrowRight className="h-16 w-16 text-primary" />
           </AnimatedWrapper>
 
-          <AnimatedWrapper animationType="slide-in-right" delay="delay-300">
+          <AnimatedWrapper animationType="slide-in-right" delay="delay-300" className="h-full">
             <Card className="shadow-xl hover:shadow-2xl transition-shadow duration-300 h-full">
               <CardHeader>
                 <CardTitle className="font-headline text-2xl text-center text-primary">After SahaAakar</CardTitle>
