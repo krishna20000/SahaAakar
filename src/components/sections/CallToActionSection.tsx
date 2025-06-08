@@ -17,11 +17,11 @@ export function CallToActionSection() {
           </p>
         </AnimatedWrapper>
         <AnimatedWrapper animationType="fade-up" delay="delay-400">
-          <Button 
+          <Button
             asChild
-            size="lg" 
-            variant="secondary" 
-            className="mt-8 md:mt-10 px-10 py-7 text-lg bg-accent text-accent-foreground shadow-lg hover:bg-accent/90 transition-opacity transform hover:scale-105"
+            size="lg" // h-11 (44px), base px-8 (32px)
+            variant="secondary"
+            className="mt-8 text-base px-6 sm:text-lg sm:px-10 bg-accent text-accent-foreground shadow-lg hover:bg-accent/90 transition-opacity transform hover:scale-105"
           >
              <Link href="mailto:contact@sahaaakar.com?subject=Consultation Request">Schedule Your Free Consultation</Link>
           </Button>
