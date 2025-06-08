@@ -37,7 +37,7 @@ export function Footer() {
             <span>&bull;</span>
             <Link href="/terms-of-service" className="hover:text-primary transition-colors">Terms of Service</Link>
           </div>
-          <p className="mt-4">Made by CodeCrafter</p>
+          <p className="mt-4">Demo page made by CodeCrafter</p>
         </div>
       </div>
     </footer>
