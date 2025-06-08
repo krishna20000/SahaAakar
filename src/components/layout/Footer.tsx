@@ -37,7 +37,17 @@ export function Footer() {
             <span>&bull;</span>
             <Link href="/terms-of-service" className="hover:text-primary transition-colors">Terms of Service</Link>
           </div>
-          <p className="mt-4">Demo page made by CodeCrafter</p>
+          <p className="mt-4">
+            Demo page made by{' '}
+            <a 
+              href="https://wa.me/919987258308" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="hover:text-primary transition-colors"
+            >
+              CodeCrafter
+            </a>
+          </p>
         </div>
       </div>
     </footer>
