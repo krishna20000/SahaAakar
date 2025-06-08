@@ -35,7 +35,7 @@ export function BeforeAfterSection() {
             </Card>
           </AnimatedWrapper>
           
-          <AnimatedWrapper animationType="fade-in" delay="delay-150" className="hidden md:flex justify-center items-center">
+          <AnimatedWrapper animationType="fade-in" delay="delay-150" className="hidden md:flex justify-center items-center h-full">
              <ArrowRight className="h-16 w-16 text-primary" />
           </AnimatedWrapper>
 
@@ -46,12 +46,12 @@ export function BeforeAfterSection() {
               </CardHeader>
               <CardContent>
                 <Image
-                  src="https://placehold.co/600x400.png"
+                  src="https://images.unsplash.com/photo-1592181572975-1d0d8880d175?q=80&w=2079&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="After profile optimization"
                   width={600}
                   height={400}
                   className="rounded-lg object-cover w-full"
-                  data-ai-hint="professional resume"
+                  data-ai-hint="professional linkedin"
                 />
                 <p className="mt-4 text-sm text-foreground/70 text-center">
                   Optimized, compelling profile attracting opportunities and building a strong network.
