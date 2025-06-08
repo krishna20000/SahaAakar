@@ -6,7 +6,7 @@ import Link from 'next/link';
 export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center py-20 bg-gradient-to-br from-background via-purple-50 to-pink-50 overflow-hidden">
-      <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1701967341617-14499d8bf8c3?q=80&w=1994&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }} data-ai-hint="abstract tech"></div>
+      <div className="absolute inset-0 opacity-25" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1701967341617-14499d8bf8c3?q=80&w=1994&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }} data-ai-hint="abstract tech"></div>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <AnimatedWrapper animationType="fade-up">
           <h1 className="font-headline text-5xl md:text-7xl font-bold tracking-tight text-primary">
@@ -37,3 +37,4 @@ export function HeroSection() {
     </section>
   );
 }
+
