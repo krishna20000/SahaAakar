@@ -21,12 +21,12 @@ export function BeforeAfterSection() {
               </CardHeader>
               <CardContent>
                 <Image
-                  src="https://placehold.co/600x400.png"
+                  src="https://images.unsplash.com/photo-1696041760753-c54dca3529f1?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Before profile optimization"
                   width={600}
                   height={400}
                   className="rounded-lg object-cover w-full"
-                  data-ai-hint="generic resume"
+                  data-ai-hint="unfocused profile"
                 />
                 <p className="mt-4 text-sm text-foreground/70 text-center">
                   Generic, underutilized profile with limited engagement and visibility.
