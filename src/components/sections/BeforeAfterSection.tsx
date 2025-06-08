@@ -13,11 +13,11 @@ export function BeforeAfterSection() {
             See the tangible impact our services can have on your professional brand.
           </p>
         </AnimatedWrapper>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           <AnimatedWrapper animationType="slide-in-left">
-            <Card className="shadow-xl hover:shadow-2xl transition-shadow duration-300">
+            <Card className="shadow-xl hover:shadow-2xl transition-shadow duration-300 h-full">
               <CardHeader>
-                <CardTitle className="font-headline text-2xl text-center text-red-600">Before SahaAakar</CardTitle>
+                <CardTitle className="font-headline text-2xl text-center text-destructive">Before SahaAakar</CardTitle>
               </CardHeader>
               <CardContent>
                 <Image
@@ -35,14 +35,14 @@ export function BeforeAfterSection() {
             </Card>
           </AnimatedWrapper>
           
-          <AnimatedWrapper animationType="slide-in-right" className="hidden md:block self-center">
-             <ArrowRight className="h-16 w-16 text-primary mx-auto" />
+          <AnimatedWrapper animationType="fade-in" delay="delay-150" className="hidden md:flex justify-center items-center">
+             <ArrowRight className="h-16 w-16 text-primary" />
           </AnimatedWrapper>
 
-          <AnimatedWrapper animationType="slide-in-right" delay="delay-150">
-            <Card className="shadow-xl hover:shadow-2xl transition-shadow duration-300">
+          <AnimatedWrapper animationType="slide-in-right" delay="delay-300">
+            <Card className="shadow-xl hover:shadow-2xl transition-shadow duration-300 h-full">
               <CardHeader>
-                <CardTitle className="font-headline text-2xl text-center text-green-600">After SahaAakar</CardTitle>
+                <CardTitle className="font-headline text-2xl text-center text-primary">After SahaAakar</CardTitle>
               </CardHeader>
               <CardContent>
                 <Image
